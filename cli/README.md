@@ -2,7 +2,7 @@
 Humble.js scripts come with CLI for your package.json.
 
 ## humblejs-pkg
-CLI specific for a package. It is part of `@humblejs/client`
+CLI specific for a package. It is part of `@humblejs/scripts`
 
 | Command | Description |
 |-----------|----------------|
@@ -19,7 +19,7 @@ Following commands are available but most of the times they are not needed by pa
 | `humblejs-pkg watch-css` | Watch any changes to the CSS files and immediately compile when a change is detected |
 
 ## humblejs-repo
-CLI specific for package repository. It is part of `@humblejs/client`
+CLI specific for package repository. It is part of `@humblejs/scripts`
 
 | Command | Description |
 |-----------|----------------|
