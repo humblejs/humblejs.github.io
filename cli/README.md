@@ -23,14 +23,14 @@ CLI specific for package repository. It is part of `@humblejs/scripts`
 
 | Command | Description |
 |-----------|----------------|
-| `humblejs-repo new <packages dir> <scope> [<name>]` | Create new package in the repository. If name is specified you will not be prompt to change the component name |
-| `humblejs-repo build <packages dir> <scope>` | Build packages from the directory with specified scope |
-| `humblejs-repo install <packages dir>` | Install all the package node_modules from the specified directory |
-| `humblejs-repo install:clean <packages dir>` | Clean install all the package node_modules from the specified directory. Cleaning means removing `node_modules` and `yarn.lock` for each package before installing |
+| `humblejs-repo new --pkgdir=<packages dir> --scope=<scope> [--name=<name>]` | Create new package in the repository. If name is specified you will not be prompt to change the component name |
+| `humblejs-repo build --pkgdir=<packages dir> --scope=<scope>` | Build packages from the directory with specified scope |
+| `humblejs-repo install --scope=<scope>` | Install all the package node_modules from the specified directory |
+| `humblejs-repo install:clean --pkgdir=<packages dir> --scope=<scope>` | Clean install all the package node_modules from the specified directory. Cleaning means removing `node_modules` and `yarn.lock` for each package before installing |
 | `humblejs-repo push` | Pushes all the changed packages to the registry |
 
 
-## humblejs-server
+## humblejs (server)
 CLI specific for humble.js server repository. It is part of `@humblejs/server`
 
 | Command | Description |

@@ -50,7 +50,7 @@ import { Input } from '@humblejs/form'
 | **Description** | **Value** |
 |-----------|----------|
 | Base component   | `<div>` |
-| Base class   | `zs-form__input` |
+| Base class   | `hjs-form__input` |
 
 | **Props** | **Type / Description** | **Is Required?** | **Default** |
 |-----------|----------|-------------|-------------|
@@ -63,7 +63,7 @@ import { Input } from '@humblejs/form'
 | **Description** | **Value** |
 |-----------|----------|
 | Base component   | `<li>` |
-| Base class   | `zs-form__checkbox` |
+| Base class   | `hjs-form__checkbox` |
 | Notes   | Must be inside `<ul>` |
 
 | **Props** | **Type** | **Is Required?** | **Default** |
