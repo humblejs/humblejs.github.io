@@ -19,7 +19,7 @@ Page routes are defined in `client/routes` directory which are then compiled. Th
 
 
 An example of most simple route is:
-```
+```javascript
 import AboutPage from '~/client/pages/About';
 
 {
@@ -34,15 +34,15 @@ The idea behind this JSON is, when user hits `/about`, the server triggers middl
 `about.js`
 ```javascript
 export default async (req, res, next) => {
-  res.send('Hello`)
+  res.send('Hello from server')
 }
 ```
 
-After the last middleware, server puts everything together and passes in to `AboutPage` which is react page and hydrates the react DOM. In turn, user sees `Hello` message on their browser.
+After the last middleware, server puts everything together and passes in to `AboutPage` which is react page and hydrates the react DOM. In turn, user sees `Hello from server` message on their browser.
 
 A typical `AboutPage` file will look like this:
 
-```
+```javascript
 import { PageDefinition } from '@humblejs/core';
 
 const Page = PageDefinition({
