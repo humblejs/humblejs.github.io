@@ -51,14 +51,11 @@ A typical `AboutPage` file will look like this:
 ```javascript
 import { PageDefinition } from '@humblejs/core';
 
-const Page = PageDefinition({
-  component: () => import(/* webpackChunkName: "AboutPage" */ '@train/pa-about'),
-  modules: ['About'],
+export default PageDefinition({
+  name: 'About',
+  importer: () => import(/* webpackChunkName: "About" */ '@train/pa-about'),
+  pkg: '@train/pa-about',
 });
-
-Page.pkg = '@train/pa-about';
-
-export default Page;
 ```
 
 `PageDefinition` lazy loads the page and helps in code-splitting. `webpackChunkName` is a magic comment by webpack. Read more about [magic comments here](https://medium.com/faceyspacey/how-to-use-webpacks-new-magic-comment-feature-with-react-universal-component-ssr-a38fd3e296a)
