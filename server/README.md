@@ -1,6 +1,8 @@
 # Server
 This page introduces you to the **humble.js server** which is the core of humble framework.
 
+Looking for documentations? [Find them here](/server/docs)
+
 ## introduction
 
 1. Humble.js is a *complete* back-to-front web server powered by most popular libraries. These libraries are used internally and developers are not bound to any libraries (see scalibility below). They only needs to map the components/pages to routes (via simple JSON format). Humble.js comes with built-in frameworks for RESTful api, database and task automation. You can use your pre-existing react components or create your own one with humble.js's frontend framework (using [`humblejs-repo`](/cli#humblejs-repo) CLI) to speed up the development.
@@ -42,7 +44,7 @@ Humble.js comes with debugging support
 | `pageMapping` | Page to package mapping for custom pages. For example, if some of the pages do not use packages from `scope`, you can specify here. |
 | `disabledApi` | You can disable any humble.js built-in API by adding the identifier here. For example `['USERS.SIGNUP']` will disable signup API, `['USERS']` will disable all the user related API (`signin`, `signup` etc) |
 
-### Sample File
+#### sample file
 
 ```js
 module.exports = {
@@ -51,11 +53,11 @@ module.exports = {
   version: '1.0',
 
   remote: {
-    user: 'admin',
+    user: 'ec2-user',
     host: 'ec2-203-0-123-12.compute-1.amazonaws.com',
     port: 22, // ssh port
     dest: '~/web',
-    privateKey: null,
+    privateKey: '~/.ssh/id_rsa',
 
     // list of files to keep in the remote
     // essentially ignore all these patterns
