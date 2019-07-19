@@ -1,4 +1,6 @@
-[Basics →](/docs/basics)
+<p align="center">
+  <a href="/docs/basics">Basics →</a>
+</p>
 
 ## Getting Started
 

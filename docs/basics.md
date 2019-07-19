@@ -1,4 +1,6 @@
-[← Getting Started](/docs/getting-started)
+<p align="center">
+  <a href="/docs/getting-started">← Getting Started</a>
+</p>
 
 ## Basics
 
