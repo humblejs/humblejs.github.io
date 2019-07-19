@@ -1,6 +1,4 @@
-<p align="center">
 [← Getting Started](/docs/getting-started)
-</p>
 
 ## Basics
 

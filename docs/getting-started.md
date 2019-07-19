@@ -1,6 +1,4 @@
-<p align="center">
 [Basics →](/docs/basics)
-</p>
 
 ## Getting Started
 
