@@ -1,7 +1,7 @@
 # Server
 This page introduces you to the **humble.js server** which is the core of humble framework.
 
-Looking for documentations? [Find them here](/server/docs)
+Looking for documentations? [Find them here](/docs)
 
 ## introduction
 

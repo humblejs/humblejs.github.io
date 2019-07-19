@@ -82,3 +82,5 @@ Notice `controllers` array, these are middleware in order. The last one should s
 
 ### Session Routes
 Humble.js comes with default session management, which is based on express-session. You can override this by specifying custom routes in `routes/sess` directory. For most cases, the default session controllers are good enough.
+
+[← Getting Started](/docs/getting-started)
