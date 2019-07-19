@@ -35,7 +35,8 @@ CLI specific for humble.js server repository. It is part of `@humblejs/server`
 
 | Command | Description |
 |-----------|----------------|
-| `humblejs build` | Builds application for production |
 | `humblejs new` | Create new server application based on humble.js |
-| `humblejs deploy` | Deploys the application to remote server specified in humble.js configuration file|
+| `humblejs build` | Builds application for production |
 | `humblejs analyze` | Analyze bundles to see possibilities to reduce the application size|
+| `humblejs deploy` | Deploys the application to remote server specified in humble.js configuration file|
+| `humblejs runjob <name>` | Manually run automated task from `crons` directory |
