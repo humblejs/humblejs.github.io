@@ -2,7 +2,7 @@
   <a href="/docs/getting-started">← Getting Started</a>
 </p>
 
-## Basics
+## Basics Concepts
 
 Humble.js uses express and react-router library underneath for routing and server. For you, all the details are abstract and you are only required to provide simple JSON
 to serve the pages and process API requests.
@@ -11,6 +11,112 @@ Humble.js has 2 main components
 
  * Front-end components (pages) - preferably using `@humblejs/page` but can work with existing pages
  * Controllers - these are middleware that are used with each route.
+
+## Global Variables
+A part from Node's default, humble.js has some helpful global read-only variables that can be accessed from anywhere in the application.
+
+| *Variable Name* | *Description* |
+|---|---|
+| `logger` | Logger based on [winston logging](https://github.com/winstonjs/winston) |
+| `cfg`    | Configuration data for the application (managed in database table called `ConfigData`) - The configurations are updated every 15 minutes - This value can be changed in `core/__constants.js`. Anything specific in `KEY_NAME` column of the table is accessed as is. For example, if you have `VERSION`, you can access it at anytime by `cfg.VERSION` |
+| `deploymentCfg` | Deployment configuration if you need it, it contains deployment information, e.g, `deploymentCfg.SCOPE` |
+
+Global variables can be dangerous (thread-safety issues) and also can cause memory problems (memory leaks if not used properly). It is not recommended to define new global variables unless you absolutely need them.
+
+## Modelling
+All the database tables are modelled automatically to javascript objects using `models/__model.js` and `models/__base.js`. For example, if you have a table called `Client`, a typical model class will look like:
+
+```javascript
+import { Model, STATUS } from '~/models';
+
+const TABLE_NAME = 'Client';
+
+const QUERIES = {
+  QUERY_BY_EMAIL: 'SELECT * FROM Client WHERE email = ? AND status = ?',
+};
+
+const hasFlag = (record, flag) => record && (record.flag & flag) === flag;
+
+const FUNCTIONS = [
+  hasFlag,
+];
+
+const model = Model({
+  TABLE_NAME,
+  QUERIES,
+  FUNCTIONS,
+});
+
+const queryByEmail = ({ email }) => (model.querySingleObject(QUERIES.QUERY_BY_EMAIL, [ // or use model.query if you expect query to return multiple objects
+  email, STATUS.ACTIVE,
+]));
+
+export default {
+  ...model,
+  queryByEmail,
+  hasFlag,
+};
+```
+
+Now when you query the database, you simply do:
+
+```javascript
+import Client from '~/models/client';
+
+...
+Client.queryByEmail({ email: 'blah@example.com' }).then((client) => {
+  const correct = client.hasFlag(Flags.IS_CORRECTED); // notice single parameter only
+});
+
+// -- or you can use Client.hasFlag(myClient, Flags.IS_CORRECTED)
+```
+
+#### Default Functions
+
+`model()` pre-defines some basic queries and corresponding functions
+
+|*Function*|*Description*|
+|---|---|
+| `queryAllActive()` | Queries all the active records |
+| `queryById({ id })` | Queries record by ID |
+| `queryByIds({ ids })` | Query records by IDs, expects `ids` to be array of numbers |
+| `queryByPublicId({ publicId })` | Queries single record by public ID. Public ID is a random string associated with the record. Similar to ID |
+ 
+If you have an empty object and you want to convert it in to a model
+
+```javascript
+const newClient = Client.createNew({ name: 'blah', email: 'blah@example.com', flag: 4 }); // or Client.convertObject which is an alias to createNew
+
+// -- now you can simply insert the record to the database
+// -- or update existing records
+
+newClient.insert().then(() => {
+  console.log('Record successfully inserted');
+});
+
+```
+
+#### Database Functions
+
+Default database functions are very handy
+
+|*Function*|*Description*|
+|---|---|
+| `insert()` | Inserts current object in to the database |
+| `update()` | Update the current object |
+| `del()` | Deletes the record from the database |
+
+
+```javascript
+import Client from '~/models/client';
+
+const deleteClient = async (email) => {
+  const client = await Client.queryByEmail({ email: 'blah@example.com' });
+  if (client) {
+    await client.del();
+  }
+}
+```
  
 ## Routing
 
@@ -119,15 +225,43 @@ Code splitting is done automatically for each pages, typically coming from `impo
 ## Templates
 Templates define the bare bones of any page or email. They're found in `templates` directory. Humble.js uses EJS templates.
 
-### Page Templates
+#### Page Templates
 `__page.ejs` is default template and you can use custom page template by specifying config data `PAGE_TEMPLATE` which will be picked up from `templates` directory.
 
-### Email Templates
+#### Email Templates
 `templates/__emails/` is default source for the templates, but you can specify custom source directory in config data `EMAIL_TEMPLATE_DIR`.
 
-### Error Templates
+#### Error Templates
 `templates/__errors` is default source for the templates. You can override this in config data `ERROR_TEMPLATE_DIR`.
 
 `templates/__errors/__generic.ejs` is catch-all for all the errors. You can override catch-all with config data `EMAIL_TEMPLATE` which will be picked up from `templates/__errors` (or `ERROR_TEMPLATE_DIR` if available)
 
-You can add HTTP status codes templates for each type of error templates. For example, if you want custom error page for error 503, you will need to create `templates/__errors/503.ejs`.
+You can add HTTP status codes templates for each type of error templates. For example, if you want custom error page for error 503, you will need to create `templates/__errors/503.ejs`
+
+## Automated Tasks
+Humble.js comes with task automation framework which helps you run frequent tasks by simply scheduling them. All the tasks are defined in `crons` directory.
+
+A task is a simple class that has a run function that returns promise.
+
+```javascript
+export default class MyNewTask {
+  constructor() {
+    this.name = this.constructor.name;
+  }
+
+  async run() {
+    const result = { };
+
+    return result;
+  }
+}
+
+```
+
+To run this task manually for development, simply do `yarn runjob my-new-task --mock`
+
+`--mock` will ignore checking of the database entry in `Cron` table and will always run.
+
+Once the task is ready for production, simply add an entry in `Cron` with preferred `schedule` and `run_type`. `run_type` tells Humble.js whether to run the task from within running application or register it as linux cron.
+
+If you want to manually run the task, simply do `yarn runjob <task name>`.

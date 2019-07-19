@@ -42,7 +42,7 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavours:
 
 * `@humblejs/scripts` (v 1.8.21)
-* `@humblejs/server` (v 1.8.122)
+* `@humblejs/server` (v 1.8.123)
 
 [Click here](/cli) for more details
 
