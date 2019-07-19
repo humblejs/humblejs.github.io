@@ -22,11 +22,13 @@ An example of most simple route is:
 ```javascript
 import AboutPage from '~/client/pages/About';
 
-{
-  path: '/about',
-  component: AboutPage,
-  controllerId: 'about',
-}
+export default [
+  {
+    path: '/about',
+    component: AboutPage,
+    controllerId: 'about',
+  },
+];
 ```
 
 The idea behind this JSON is, when user hits `/about`, the server triggers middleware from `about` which is essentially a javascript file `controllers/pages/about.js`.
@@ -63,16 +65,17 @@ API routes are defined in `routes/api` directory which are slightly different to
 ```javascript
 import SigninController from '~/controllers/api/signin';
 import * as hjs from '~/core/__middleware'; // Humble.js defined helper middleware
-
-{
-  path: '/api/v1/signin',
-  method: 'POST',
-  controllers: [
-    hjs.json, // set response type to JSON
-    hjs.noCache, // never cache this
-    SigninController,
-  ],
-}
+export default [
+  {
+    path: '/api/v1/signin',
+    method: 'POST',
+    controllers: [
+      hjs.json, // set response type to JSON
+      hjs.noCache, // never cache this
+      SigninController,
+    ],
+  },
+];
 ```
 
 Notice `controllers` array, these are middleware in order. The last one should send the response. `hjs` in above example are just helper middleware, you can use your own if you want.
