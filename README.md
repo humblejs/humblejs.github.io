@@ -1,5 +1,7 @@
 Humble.js is feature-rich web framework built on modern technology stack. It's built with speed and scalibility in mind.
 
+Looking for documentations? [Find them here](/docs)
+
 Please consider donating to this project and help make it open source.
 
 [![Donate](https://gdl.muflihun.com/donate.png?v2)](https://www.paypal.me/zuhd/100)

@@ -1,8 +1,6 @@
 # Server
 This page introduces you to the **humble.js server** which is the core of humble framework.
 
-Looking for documentations? [Find them here](/docs)
-
 ## introduction
 
 1. Humble.js is a *complete* back-to-front web server powered by most popular libraries. These libraries are used internally and developers are not bound to any libraries (see scalibility below). They only needs to map the components/pages to routes (via simple JSON format). Humble.js comes with built-in frameworks for RESTful api, database and task automation. You can use your pre-existing react components or create your own one with humble.js's frontend framework (using [`humblejs-repo`](/cli#humblejs-repo) CLI) to speed up the development.
