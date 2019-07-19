@@ -1,3 +1,7 @@
+<p align="center">
+[← Getting Started](/docs/getting-started)
+</p>
+
 ## Basics
 
 Humble.js uses express and react-router library underneath for routing and server. For you, all the details are abstract and you are only required to provide simple JSON
@@ -82,5 +86,3 @@ Notice `controllers` array, these are middleware in order. The last one should s
 
 ### Session Routes
 Humble.js comes with default session management, which is based on express-session. You can override this by specifying custom routes in `routes/sess` directory. For most cases, the default session controllers are good enough.
-
-[← Getting Started](/docs/getting-started)

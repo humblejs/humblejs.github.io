@@ -1,3 +1,7 @@
+<p align="center">
+[Basics →](/docs/basics)
+</p>
+
 ## Getting Started
 
 **You will need to make sure you have access to humblejs private registry and humblejs git repo**
@@ -26,5 +30,3 @@ After this you will be asked series of questions. For example you are creating a
 |Git repo for the project|SSH git repo for the project where things will be pushed to. If you do not have one, leave this empty for now||
 
 The process will then generate the whole project and first package called `theme`.
-
-[Basics →](/docs/basics)
