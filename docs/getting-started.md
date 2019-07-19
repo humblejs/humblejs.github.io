@@ -6,11 +6,7 @@
 
 **You will need to make sure you have access to humblejs private registry and humblejs git repo**
 
-1. Clone the git repo for the server
-```
-git clone <path/to/git/repo/humble.js.git>
-```
-2. Make sure all the required scripts are up to date
+1. Make sure all the required scripts are up to date
 ```
 yarn global add @humblejs/server --latest
 yarn global add @humblejs/scripts --latest
@@ -26,7 +22,7 @@ After this you will be asked series of questions. For example you are creating a
 |---|---|---|
 |Project name|Name of the project folder|`train-builders`|
 |Project scope|All the frontend packages will start with this scope|`train` means packages will be `@train/theme` or `@theme/homepage` etc|
-|Humble.js repo|Path to git repo for rebasing and updating|`~/humble.js`|
+|Humble.js repo|Path to git repo for rebasing and updating. You can make updating the framework faster by cloning and using local path.|`git@github.com:zuhd-org/humble.js.git`|
 |Git repo for the project|SSH git repo for the project where things will be pushed to. If you do not have one, leave this empty for now||
 
 The process will then generate the whole project and first package called `theme`.
