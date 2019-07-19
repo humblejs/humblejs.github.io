@@ -1,5 +1,3 @@
-# Documentation
-
 ## Getting Started
 
 **You will need to make sure you have access to humblejs private registry and humblejs git repo**
