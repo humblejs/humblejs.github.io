@@ -32,7 +32,7 @@ import AboutPage from '~/client/pages/About';
 The idea behind this JSON is, when user hits `/about`, the server triggers middleware from `about` which is essentially a javascript file `controllers/pages/about.js`.
 
 `about.js`
-```
+```javascript
 export default async (req, res, next) => {
   res.send('Hello`)
 }
@@ -40,10 +40,27 @@ export default async (req, res, next) => {
 
 After the last middleware, server puts everything together and passes in to `AboutPage` which is react page and hydrates the react DOM. In turn, user sees `Hello` message on their browser.
 
+A typical `AboutPage` file will look like this:
+
+```
+import { PageDefinition } from '@humblejs/core';
+
+const Page = PageDefinition({
+  component: () => import(/* webpackChunkName: "AboutPage" */ '@train/pa-about'),
+  modules: ['About'],
+});
+
+Page.pkg = '@train/pa-about';
+
+export default Page;
+```
+
+`PageDefinition` lazy loads the page and helps in code-splitting. `webpackChunkName` is a magic comment by webpack. Read more about [magic comments here](https://medium.com/faceyspacey/how-to-use-webpacks-new-magic-comment-feature-with-react-universal-component-ssr-a38fd3e296a)
+
 ### API Routes
 API routes are defined in `routes/api` directory which are slightly different to page routes. An example of such route is
 
-```
+```javascript
 import SigninController from '~/controllers/api/signin';
 import * as hjs from '~/core/__middleware'; // Humble.js defined helper middleware
 
