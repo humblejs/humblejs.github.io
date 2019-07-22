@@ -58,7 +58,7 @@ Humble.js built-in packages that are helpful to speed up the development. These 
  * [form](/pkg/form) (v 1.7.132)
  * [icon](/pkg/icon) (v 1.7.128)
  * [img](/pkg/img) (v 1.7.125)
- * [infinite](/pkg/infinite) (v 1.0.0)
+ * [infinite](/pkg/infinite) (v 1.0.1)
  * [lib](/pkg/lib) (v 1.7.122)
  * [link](/pkg/link) (v 1.7.127)
  * [menu](/pkg/menu) (v 1.0.12)
