@@ -8,3 +8,7 @@ Infinite scrolling container either by click or by scrolling.
 ```
 yarn add @humblejs/infinite
 ```
+
+## Notes
+
+ * `fetchMore({ callback, until })`
