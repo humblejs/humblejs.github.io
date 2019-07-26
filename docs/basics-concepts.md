@@ -9,7 +9,7 @@ to serve the pages and process API requests.
 
 Humble.js has 2 main components
 
- * Front-end components (pages) - preferably using `@humblejs/page` but can work with existing pages
+ * Front-end components (pages) - humble.js works with your existing pages
  * Controllers - these are middleware that are used with each route.
 
 ## Global Variables
@@ -81,7 +81,7 @@ Client.queryByEmail({ email: 'blah@example.com' }).then((client) => {
 | `queryById({ id })` | Queries record by ID |
 | `queryByIds({ ids })` | Query records by IDs, expects `ids` to be array of numbers |
 | `queryByPublicId({ publicId })` | Queries single record by public ID. Public ID is a random string associated with the record. Similar to ID |
- 
+
 If you have an empty object and you want to convert it in to a model
 
 ```javascript
@@ -117,7 +117,7 @@ const deleteClient = async (email) => {
   }
 }
 ```
- 
+
 ## Routing
 
 Humble.js routing are split in to three parts:

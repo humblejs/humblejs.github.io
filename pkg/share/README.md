@@ -24,6 +24,7 @@ Import all styling
 | `url`    | string<br><br>URL to share      | Yes |  |
 | `title`    | string<br><br>Title of the URL | No | Empty |
 | `excerpt`    | string<br><br>Excerpt from URL (or brief description) | No | Empty |
+| `text`    | string<br><br>Detailed text | No | Empty |
 
 ## Analytics
 You can map GA analytics for share buttons using `dist/js/ga.js`
