@@ -31,7 +31,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ## server
 
-version 1.34
+version 1.35
 
 Humble.js server is the core of Humble.js that incorporates all the components and serve them accordingly.
 
@@ -41,7 +41,7 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 
 Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavours:
 
-* `@humblejs/scripts` (v 1.8.24)
+* `@humblejs/scripts` (v 1.8.27)
 * `@humblejs/server` (v 1.8.124)
 
 [Click here](/cli) for more details
@@ -51,22 +51,22 @@ Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavour
 Humble.js built-in packages that are helpful to speed up the development. These packages are ReactJS components.
 
 
- * [breadcrumbs](/pkg/breadcrumbs) (v 1.8.23)
- * [context](/pkg/context) (v 1.7.131)
- * [core](/pkg/core) (v 1.2.15)
- * [demo](/pkg/demo) (v 2.0.24)
- * [form](/pkg/form) (v 1.7.139)
- * [icon](/pkg/icon) (v 1.7.135)
- * [img](/pkg/img) (v 1.7.132)
- * [infinite](/pkg/infinite) (v 1.0.10)
- * [lib](/pkg/lib) (v 1.7.129)
- * [link](/pkg/link) (v 1.7.134)
- * [menu](/pkg/menu) (v 1.0.19)
- * [modal](/pkg/modal) (v 1.1.56)
- * [page](/pkg/page) (v 1.7.152)
- * [paypal-button](/pkg/paypal-button) (v 1.7.133)
- * [pending](/pkg/pending) (v 1.0.20)
- * [share](/pkg/share) (v 1.7.139)
- * [shopping-cart](/pkg/shopping-cart) (v 1.7.134)
- * [skeleton](/pkg/skeleton) (v 1.7.135)
- * [spinner](/pkg/spinner) (v 1.7.132)
+ * [breadcrumbs](/pkg/breadcrumbs) (v 1.8.30)
+ * [context](/pkg/context) (v 1.7.138)
+ * [core](/pkg/core) (v 1.2.22)
+ * [demo](/pkg/demo) (v 2.0.31)
+ * [form](/pkg/form) (v 1.7.146)
+ * [icon](/pkg/icon) (v 1.7.142)
+ * [img](/pkg/img) (v 1.7.139)
+ * [infinite](/pkg/infinite) (v 1.0.20)
+ * [lib](/pkg/lib) (v 1.7.136)
+ * [link](/pkg/link) (v 1.7.141)
+ * [menu](/pkg/menu) (v 1.0.26)
+ * [modal](/pkg/modal) (v 1.1.63)
+ * [page](/pkg/page) (v 1.7.161)
+ * [paypal-button](/pkg/paypal-button) (v 1.7.140)
+ * [pending](/pkg/pending) (v 1.0.27)
+ * [share](/pkg/share) (v 1.7.146)
+ * [shopping-cart](/pkg/shopping-cart) (v 1.7.141)
+ * [skeleton](/pkg/skeleton) (v 1.7.142)
+ * [spinner](/pkg/spinner) (v 1.7.139)
