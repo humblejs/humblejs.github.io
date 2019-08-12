@@ -1,9 +1,21 @@
 # Link
-Multi-purpose link (`<a>` tag) with build-in react-router's `Link` wrapper. Any local URL
-uses react-router `Link` (unless forced otherwise) and any external URL uses native `<a>` tag.
+Link supports smooth transition of pages within humble.js framework which displays
+spinner (or custom skeleton for the page) while loading the page.
+
+Usage is similar to `<a>`
 
 ## Install
 
 ```
 yarn add @humblejs/link
+```
+
+## Example
+
+```javascript
+import Link from '@humblejs/link';
+
+// ...
+
+<Link href={myLink} className="any-custom-class">My Link</Link>
 ```
