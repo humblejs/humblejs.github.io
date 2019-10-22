@@ -41,8 +41,8 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 
 Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavours:
 
-* `@humblejs/scripts` (v 1.8.35)
-* `@humblejs/server` (v 1.8.128)
+* `@humblejs/scripts` (v 1.8.36)
+* `@humblejs/server` (v 1.8.129)
 
 [Click here](/cli) for more details
 
@@ -51,22 +51,22 @@ Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavour
 Humble.js built-in packages that are helpful to speed up the development. These packages are ReactJS components.
 
 
- * [breadcrumbs](/pkg/breadcrumbs) (v 1.8.39)
- * [context](/pkg/context) (v 1.7.147)
- * [core](/pkg/core) (v 1.2.31)
- * [demo](/pkg/demo) (v 2.0.40)
- * [form](/pkg/form) (v 1.7.155)
- * [icon](/pkg/icon) (v 1.7.151)
- * [img](/pkg/img) (v 1.7.150)
- * [infinite](/pkg/infinite) (v 1.0.30)
- * [lib](/pkg/lib) (v 1.7.144)
- * [link](/pkg/link) (v 1.7.150)
- * [menu](/pkg/menu) (v 1.0.35)
- * [modal](/pkg/modal) (v 1.1.72)
- * [page](/pkg/page) (v 1.7.170)
- * [paypal-button](/pkg/paypal-button) (v 1.7.149)
- * [pending](/pkg/pending) (v 1.0.36)
- * [share](/pkg/share) (v 1.7.155)
- * [shopping-cart](/pkg/shopping-cart) (v 1.7.150)
- * [skeleton](/pkg/skeleton) (v 1.7.151)
- * [spinner](/pkg/spinner) (v 1.7.148)
+ * [breadcrumbs](/pkg/breadcrumbs) (v 1.8.43)
+ * [context](/pkg/context) (v 1.7.150)
+ * [core](/pkg/core) (v 1.2.34)
+ * [demo](/pkg/demo) (v 2.0.43)
+ * [form](/pkg/form) (v 1.7.158)
+ * [icon](/pkg/icon) (v 1.7.154)
+ * [img](/pkg/img) (v 1.7.153)
+ * [infinite](/pkg/infinite) (v 1.0.33)
+ * [lib](/pkg/lib) (v 1.7.147)
+ * [link](/pkg/link) (v 1.7.154)
+ * [menu](/pkg/menu) (v 1.0.44)
+ * [modal](/pkg/modal) (v 1.1.75)
+ * [page](/pkg/page) (v 1.7.174)
+ * [paypal-button](/pkg/paypal-button) (v 1.7.152)
+ * [pending](/pkg/pending) (v 1.0.39)
+ * [share](/pkg/share) (v 1.7.158)
+ * [shopping-cart](/pkg/shopping-cart) (v 1.7.153)
+ * [skeleton](/pkg/skeleton) (v 1.7.154)
+ * [spinner](/pkg/spinner) (v 1.7.151)
