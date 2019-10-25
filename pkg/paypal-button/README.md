@@ -117,7 +117,7 @@ The response look like following
 				}
 			},
 			"payee": {
-				"email_address": "humblejs-demo@amrayn.com",
+				"email_address": "humblejs-demo@zuhd.org",
 				"merchant_id": "46T8JZE4VNF4A"
 			},
 			"description": "",
@@ -183,7 +183,7 @@ The response look like following
 				"given_name": "test",
 				"surname": "buyer"
 			},
-			"email_address": "payments-buyer@amrayn.com",
+			"email_address": "payments-buyer@zuhd.org",
 			"payer_id": "4DDJQTGYTCLS2",
 			"phone": {
 				"phone_number": {
@@ -204,3 +204,4 @@ The response look like following
 	}
 }
 ```
+
