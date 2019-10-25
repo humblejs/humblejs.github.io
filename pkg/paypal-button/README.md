@@ -1,7 +1,7 @@
 # Paypal Button
 Paypal button that takes payment via PayPal gateway
 
-[Demo](https://humblejs.zuhd.org/pkg/paypal-button/demo)
+[Demo](https://humble.js.org/pkg/paypal-button/demo)
 
 ## Install
 
@@ -117,7 +117,7 @@ The response look like following
 				}
 			},
 			"payee": {
-				"email_address": "humblejs-demo@zuhd.org",
+				"email_address": "humblejs-demo@amrayn.com",
 				"merchant_id": "46T8JZE4VNF4A"
 			},
 			"description": "",
@@ -183,7 +183,7 @@ The response look like following
 				"given_name": "test",
 				"surname": "buyer"
 			},
-			"email_address": "payments-buyer@zuhd.org",
+			"email_address": "payments-buyer@amrayn.com",
 			"payer_id": "4DDJQTGYTCLS2",
 			"phone": {
 				"phone_number": {
@@ -204,4 +204,3 @@ The response look like following
 	}
 }
 ```
-

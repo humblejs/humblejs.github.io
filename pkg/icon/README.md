@@ -1,7 +1,7 @@
 # Icon
 SVG based Icons packages. Thanks to Font Awesome
 
-[Demo](https://humblejs.zuhd.org/pkg/icon/demo)
+[Demo](https://humble.js.org/pkg/icon/demo)
 
 ## Install
 

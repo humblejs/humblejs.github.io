@@ -1,6 +1,6 @@
 # Pending
 
-[Demo](https://humblejs.zuhd.org/pkg/pending/demo)
+[Demo](https://humble.js.org/pkg/pending/demo)
 
 ## Install
 

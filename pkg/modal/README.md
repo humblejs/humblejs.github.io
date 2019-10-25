@@ -1,6 +1,6 @@
 # Modal
 
-[Demo](https://humblejs.zuhd.org/pkg/modal/demo)
+[Demo](https://humble.js.org/pkg/modal/demo)
 
 ## Install
 

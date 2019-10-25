@@ -1,7 +1,7 @@
 # Skeleton
 Component to show before loading actual contents
 
-[Demo](https://humblejs.zuhd.org/pkg/skeleton/demo)
+[Demo](https://humble.js.org/pkg/skeleton/demo)
 
 ## Install
 

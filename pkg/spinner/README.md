@@ -1,7 +1,7 @@
 # Spinner
 CSS based spinner to show contents loading
 
-[Demo](https://humblejs.zuhd.org/pkg/spinner/demo)
+[Demo](https://humble.js.org/pkg/spinner/demo)
 
 ## Install
 

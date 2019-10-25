@@ -1,7 +1,7 @@
 # Share
 Buttons to share link on social media and other channels
 
-[Demo](https://humblejs.zuhd.org/pkg/share/demo)
+[Demo](https://humble.js.org/pkg/share/demo)
 
 ## Install
 

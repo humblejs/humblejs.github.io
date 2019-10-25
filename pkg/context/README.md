@@ -1,7 +1,7 @@
 # Context
 Lightweight wrapper React 16 context API
 
-[Demo](https://humblejs.zuhd.org/pkg/context/demo)
+[Demo](https://humble.js.org/pkg/context/demo)
 
 ## Install
 
@@ -23,7 +23,7 @@ import { Provider } from '@humblejs/context';
 const App = () => (
   <Provider value={
     {
-      name: 'Zuhd Web Services',
+      name: 'Amrayn Web Services',
       productName: 'humblejs',
     }
   }>

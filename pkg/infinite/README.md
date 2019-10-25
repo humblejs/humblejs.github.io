@@ -1,7 +1,7 @@
 # Infinite
 Infinite scrolling container either by click or by scrolling.
 
-[Demo](https://humblejs.zuhd.org/pkg/infinite/demo)
+[Demo](https://humble.js.org/pkg/infinite/demo)
 
 ## Install
 

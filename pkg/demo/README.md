@@ -1,7 +1,7 @@
 # Demo
 Demo component for wrapping components with fixtures and media.
 
-[Demo](https://humblejs.zuhd.org/pkg/demo/demo)
+[Demo](https://humble.js.org/pkg/demo/demo)
 
 ## Install
 

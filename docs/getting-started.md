@@ -22,7 +22,7 @@ After this you will be asked series of questions. For example you are creating a
 |---|---|---|
 |Project name|Name of the project folder|`train-builders`|
 |Project scope|All the frontend packages will start with this scope|`train` means packages will be `@train/theme` or `@theme/homepage` etc|
-|Humble.js repo|Path to git repo for rebasing and updating. You can make updating the framework faster by cloning and using local path.|`git@github.com:zuhd-org/humble.js.git`|
+|Humble.js repo|Path to git repo for rebasing and updating. You can make updating the framework faster by cloning and using local path.|`git@github.com:amrayn/humble.js.git`|
 |Git repo for the project|SSH git repo for the project where things will be pushed to. If you do not have one, leave this empty for now||
 
 The process will then generate the whole project and first package called `theme`.

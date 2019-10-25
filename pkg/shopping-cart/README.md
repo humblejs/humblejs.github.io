@@ -1,7 +1,7 @@
 # Shopping Cart
 Utilities specifically for adding shopping cart to your website.
 
-[Demo](https://humblejs.zuhd.org/pkg/shopping-cart/demo)
+[Demo](https://humble.js.org/pkg/shopping-cart/demo)
 
 ## Install
 

@@ -2,7 +2,7 @@
 Image with low resolution support. Low res image is loaded and once high res is
 ready, low res is replaced with high res.
 
-[Demo](https://humblejs.zuhd.org/pkg/img/demo)
+[Demo](https://humble.js.org/pkg/img/demo)
 
 ## Install
 

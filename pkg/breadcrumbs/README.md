@@ -1,7 +1,7 @@
 # Breadcrumbs
 Breadcrumbs navigation for the page
 
-[Demo](https://humblejs.zuhd.org/pkg/breadcrumbs/demo)
+[Demo](https://humble.js.org/pkg/breadcrumbs/demo)
 
 ## Install
 

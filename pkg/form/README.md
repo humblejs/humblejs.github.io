@@ -1,7 +1,7 @@
 # Form
 Form elements package contains various UI components for forms.
 
-[Demo](https://humblejs.zuhd.org/pkg/form/demo)
+[Demo](https://humble.js.org/pkg/form/demo)
 
 ## Install
 

@@ -4,7 +4,7 @@ Looking for documentations? [Find them here](/docs)
 
 Please consider donating to this project and help make it open source.
 
-[![Donate](https://gdl.muflihun.com/donate.png?v2)](https://www.paypal.me/zuhd/100)
+[![Donate](https://gdl.muflihun.com/donate.png?v2)](https://amrayn.com/donate)
 
 ## features
 

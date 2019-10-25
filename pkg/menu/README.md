@@ -1,6 +1,6 @@
 # Menu
 
-[Demo](https://humblejs.zuhd.org/pkg/menu/demo)
+[Demo](https://humble.js.org/pkg/menu/demo)
 
 ## Install
 
