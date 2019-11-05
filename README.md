@@ -31,7 +31,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ## server
 
-version 1.42
+version 1.53
 
 Humble.js server is the core of Humble.js that incorporates all the components and serve them accordingly.
 
@@ -51,23 +51,23 @@ Humble.js scripts come with CLI for your package.json. Scripts come in 2 flavour
 Humble.js built-in packages that are helpful to speed up the development. These packages are ReactJS components.
 
 
- * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.7)
- * [cfg](/pkg/cfg) (v 1.0.0)
- * [context](/pkg/context) (v 1.8.7)
- * [core](/pkg/core) (v 1.3.7)
- * [demo](/pkg/demo) (v 2.1.7)
- * [form](/pkg/form) (v 1.8.7)
- * [icon](/pkg/icon) (v 1.9.0)
- * [img](/pkg/img) (v 1.8.7)
- * [infinite](/pkg/infinite) (v 1.1.7)
- * [lib](/pkg/lib) (v 1.8.7)
- * [link](/pkg/link) (v 1.8.7)
- * [menu](/pkg/menu) (v 1.1.7)
- * [modal](/pkg/modal) (v 1.2.7)
- * [page](/pkg/page) (v 1.8.7)
- * [paypal-button](/pkg/paypal-button) (v 1.8.7)
- * [pending](/pkg/pending) (v 1.1.7)
- * [share](/pkg/share) (v 1.8.7)
- * [shopping-cart](/pkg/shopping-cart) (v 1.8.7)
- * [skeleton](/pkg/skeleton) (v 1.8.7)
- * [spinner](/pkg/spinner) (v 1.8.7)
+ * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.8)
+ * [cfg](/pkg/cfg) (v 1.0.1)
+ * [context](/pkg/context) (v 1.8.8)
+ * [core](/pkg/core) (v 1.3.8)
+ * [demo](/pkg/demo) (v 2.1.8)
+ * [form](/pkg/form) (v 1.8.8)
+ * [icon](/pkg/icon) (v 1.9.1)
+ * [img](/pkg/img) (v 1.8.8)
+ * [infinite](/pkg/infinite) (v 1.1.8)
+ * [lib](/pkg/lib) (v 1.8.8)
+ * [link](/pkg/link) (v 1.8.8)
+ * [menu](/pkg/menu) (v 1.1.8)
+ * [modal](/pkg/modal) (v 1.2.8)
+ * [page](/pkg/page) (v 1.8.8)
+ * [paypal-button](/pkg/paypal-button) (v 1.8.8)
+ * [pending](/pkg/pending) (v 1.1.8)
+ * [share](/pkg/share) (v 1.8.8)
+ * [shopping-cart](/pkg/shopping-cart) (v 1.8.8)
+ * [skeleton](/pkg/skeleton) (v 1.8.8)
+ * [spinner](/pkg/spinner) (v 1.8.8)
