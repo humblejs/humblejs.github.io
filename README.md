@@ -31,7 +31,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ## server
 
-version 1.53
+version 1.54
 
 Humble.js server is the core of Humble.js that incorporates all the components and serve them accordingly.
 
