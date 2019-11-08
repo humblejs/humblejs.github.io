@@ -56,9 +56,9 @@ Humble.js built-in packages that are helpful to speed up the development. These 
 
 
  * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.9)
- * [cfg](/pkg/cfg) (v 1.0.6)
  * [context](/pkg/context) (v 1.8.9)
  * [core](/pkg/core) (v 1.3.9)
+ * [data-provider](/pkg/data-provider) (v 1.1.0)
  * [demo](/pkg/demo) (v 2.1.9)
  * [form](/pkg/form) (v 1.8.9)
  * [icon](/pkg/icon) (v 1.9.2)
