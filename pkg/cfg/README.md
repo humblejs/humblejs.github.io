@@ -33,3 +33,25 @@ export default withConfig(MyComponent, [
   'ADDRESS',
 ]);
 ```
+
+### Advanced
+
+For JSON Array response
+
+```
+withConfig(MyComponent, '*')
+
+...
+
+props.cfg.items
+```
+
+For custom key name
+
+```
+withConfig(MyComponent, '*', 'staff')
+
+...
+
+props.staff.items
+```
