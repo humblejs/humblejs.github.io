@@ -43,7 +43,7 @@ withConfig(MyComponent, '*')
 
 ...
 
-props.cfg.items
+Array.isArray(props.cfg) // == true
 ```
 
 For custom key name
@@ -53,5 +53,5 @@ withConfig(MyComponent, '*', 'staff')
 
 ...
 
-props.staff.items
+Array.isArray(props.staff) // == true
 ```
