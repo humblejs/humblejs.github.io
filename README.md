@@ -67,7 +67,7 @@ Humble.js built-in packages that are helpful to speed up the development. These 
  * [lib](/pkg/lib) (v 1.8.9)
  * [link](/pkg/link) (v 1.8.9)
  * [menu](/pkg/menu) (v 1.1.9)
- * [modal](/pkg/modal) (v 1.2.9)
+ * [modal](/pkg/modal) (v 1.2.10)
  * [page](/pkg/page) (v 1.8.9)
  * [paypal-button](/pkg/paypal-button) (v 1.8.9)
  * [pending](/pkg/pending) (v 1.1.9)
