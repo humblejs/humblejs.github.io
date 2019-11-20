@@ -103,10 +103,8 @@ your own context.
 ```
 import Context from '@humblejs/context';
 
-const { Context1Provider = Provider, withContext1 = withContext } =
-  { Provider, withContext} = Context.createContext();
-const { Context2Provider = Provider, withContext2 = withContext } =
-  { Provider, withContext} = Context.createContext();
+const { Provider: Context1Provider, withContext: withContext1 } = Context.createContext();
+const { Provider: Context2Provider, withContext: withContext2 } = Context.createContext();
 
 <Context1Provider value={
   {
