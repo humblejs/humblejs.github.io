@@ -98,7 +98,7 @@ For example
 
 ## Provider Nesting
 There will be time when you require multiple contexts created in same file. You will have to create
-your own context.
+your custom context pair.
 
 ```
 import Context from '@humblejs/context';
