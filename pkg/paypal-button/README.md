@@ -28,7 +28,7 @@ yarn add @humblejs/paypal-button
 
 ## How to use
 
-1. Create new paypal app in the dashboard and obtain Client ID and secret.
+1. Create new paypal app in the [dashboard](https://developer.paypal.com/developer/applications/) and obtain Client ID and secret.
 2. Pass the client ID to this component and select the correct environment (`sandbox` or `production`)
 3. Store `secret` key on the server side securely
 4. Implement `onSuccess` for the component and verify payment on the server side
@@ -204,4 +204,3 @@ The response look like following
 	}
 }
 ```
-
