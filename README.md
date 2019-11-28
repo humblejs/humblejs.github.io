@@ -54,7 +54,7 @@ Humble.js CLI for your `package.json`. It comes in two flavours:
 Humble.js comes with various category of packages
 
 ### essentials
-These packages go hand-in-hand with humble.js server and client pages. These are useful to aid and speed-up the development and data accessibility.
+These packages go hand-in-hand with humble.js server and client pages. These are useful to speed-up the development and data accessibility.
 
  * [context](/pkg/context) (v 1.8.16)
  * [core](/pkg/core) (v 1.3.16)
@@ -65,7 +65,7 @@ These packages go hand-in-hand with humble.js server and client pages. These are
  * [theme](/pkg/theme) (v 1.0.7)
 
 ### utils
-Variout utility packages to aid the development.
+Various utility packages to aid the development.
 
  * [infinite](/pkg/infinite) (v 1.1.16)
  * [lib](/pkg/lib) (v 1.9.3)
