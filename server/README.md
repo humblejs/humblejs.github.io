@@ -37,7 +37,7 @@ Humble.js comes with debugging support
 |---------------|---------------|
 | `scope`       | Packages scope for your project. This is used when creating new packages, upgrading the packages and while building |
 | `version`     | Version of your app. You wouldn't change `package.json`'s version, as that is specific for the humble.js's (the server framework) version |
-| `remote`      | Object that specifies the remote config. `user`, `host`, `port`, `dest`, `privateKey` and `keep` are the possible properties of this object. This is used with [`@humblejs/server` deployment process](/cli/#humblejs-server) |
+| `remote`      | Object that specifies the remote config. `name`, `user`, `host`, `port`, `dest`, `privateKey` and `keep` are the possible properties of this object. This is used with [`@humblejs/server` deployment process](/cli/#humblejs-server) |
 | `serviceWorker` | Configuration related to service worker and progress web app. `enabled`, `cacheControllers` and `cacheUrls` |
 | `pageMapping` | Page to package mapping for custom pages. For example, if some of the pages do not use packages from `scope`, you can specify here. |
 | `disabledApi` | You can disable any humble.js built-in API by adding the identifier here. For example `['USERS.SIGNUP']` will disable signup API, `['USERS']` will disable all the user related API (`signin`, `signup` etc) |
@@ -51,6 +51,7 @@ module.exports = {
   version: '1.0',
 
   remote: {
+    name: 'prod',
     user: 'ec2-user',
     host: 'ec2-203-0-123-12.compute-1.amazonaws.com',
     port: 22, // ssh port
