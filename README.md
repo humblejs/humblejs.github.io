@@ -1,4 +1,6 @@
-Humble.js is a web framework built on modern technology stack with speed, security and scalability in mind. The project was started and maintained by [Amrayn Web Services](https://amrayn.com).
+Humble.js is a web framework built on modern technology stack with speed, security and scalability in mind.
+
+The project was started in 2018 by [Amrayn Web Services](https://amrayn.com). It is currently active and maintained by the same company.
 
 Looking for documentations? [Find them here](/docs)
 
