@@ -1,4 +1,4 @@
-Humble.js is end-to-end web framework built on modern technology stack with speed, security and scalability in mind.
+Humble.js is a web framework built on modern technology stack with speed, security and scalability in mind. The project was started and maintained by [Amrayn Web Services](https://amrayn.com).
 
 Looking for documentations? [Find them here](/docs)
 
@@ -46,7 +46,7 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 Humble.js CLI for your `package.json`. It comes in two flavours:
 
 * `@humblejs/scripts` (v 1.9.7)
-* `@humblejs/server` (v 1.10.4)
+* `@humblejs/server` (v 1.10.6)
 
 [Click here](/cli) for more details
 
