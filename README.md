@@ -37,7 +37,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ## server
 
-current version 1.60
+current version 1.63
 
 Humble.js server is the core of Humble.js that incorporates all the components and serve them accordingly.
 
@@ -48,7 +48,7 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 Humble.js CLI for your `package.json`. It comes in two flavours:
 
 * `@humblejs/scripts` (v 1.9.7)
-* `@humblejs/server` (v 1.10.6)
+* `@humblejs/server` (v 1.10.7)
 
 [Click here](/cli) for more details
 
@@ -58,42 +58,42 @@ Humble.js comes with various category of packages
 ### essentials
 These packages go hand-in-hand with humble.js server and client pages. These are useful to speed-up the development and data accessibility.
 
- * [context](/pkg/context) (v 1.8.16)
- * [core](/pkg/core) (v 1.3.16)
- * [data-provider](/pkg/data-provider) (v 1.1.8)
- * [demo](/pkg/demo) (v 2.1.16)
- * [link](/pkg/link) (v 1.8.16)
- * [page](/pkg/page) (v 1.8.16)
- * [theme](/pkg/theme) (v 1.0.7)
+ * [context](/pkg/context) (v 1.8.18)
+ * [core](/pkg/core) (v 1.3.18)
+ * [data-provider](/pkg/data-provider) (v 1.1.10)
+ * [demo](/pkg/demo) (v 2.1.18)
+ * [link](/pkg/link) (v 1.8.18)
+ * [page](/pkg/page) (v 1.8.18)
+ * [theme](/pkg/theme) (v 1.0.9)
 
 ### utils
 Various utility packages to aid the development.
 
- * [infinite](/pkg/infinite) (v 1.1.16)
- * [lib](/pkg/lib) (v 1.9.3)
- * [paypal-button](/pkg/paypal-button) (v 1.8.16)
- * [shopping-cart](/pkg/shopping-cart) (v 1.8.16)
+ * [infinite](/pkg/infinite) (v 1.1.18)
+ * [lib](/pkg/lib) (v 1.9.5)
+ * [paypal-button](/pkg/paypal-button) (v 1.8.18)
+ * [shopping-cart](/pkg/shopping-cart) (v 1.8.18)
 
 ### ui
 Custom UI packages. You can completely ignore them if you want to use something else.
 
- * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.16)
- * [form](/pkg/form) (v 1.8.16)
- * [icon](/pkg/icon) (v 1.9.9)
- * [img](/pkg/img) (v 1.8.16)
- * [menu](/pkg/menu) (v 1.1.16)
- * [modal](/pkg/modal) (v 1.2.17)
- * [pending](/pkg/pending) (v 1.1.16)
- * [share](/pkg/share) (v 1.8.16)
- * [skeleton](/pkg/skeleton) (v 1.8.16)
- * [spinner](/pkg/spinner) (v 1.8.16)
+ * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.18)
+ * [form](/pkg/form) (v 1.8.18)
+ * [icon](/pkg/icon) (v 1.9.11)
+ * [img](/pkg/img) (v 1.8.18)
+ * [menu](/pkg/menu) (v 1.1.18)
+ * [modal](/pkg/modal) (v 1.2.19)
+ * [pending](/pkg/pending) (v 1.1.18)
+ * [share](/pkg/share) (v 1.8.18)
+ * [skeleton](/pkg/skeleton) (v 1.8.18)
+ * [spinner](/pkg/spinner) (v 1.8.18)
 
 ### pages
 Pre-build page components that are shared across and can be used in your project. Some of these pages come with humble.js server.
 
- * [pa-config](/pkg/pa-config) (v 1.1.21)
- * [pa-error](/pkg/pa-error) (v 1.1.16)
- * [pa-reset-pwd](/pkg/pa-reset-pwd) (v 1.1.16)
- * [pa-signin](/pkg/pa-signin) (v 1.1.16)
- * [pa-static](/pkg/pa-static) (v 1.1.16)
- * [pa-view-email](/pkg/pa-view-email) (v 1.1.16)
+ * [pa-config](/pkg/pa-config) (v 1.1.24)
+ * [pa-error](/pkg/pa-error) (v 1.1.18)
+ * [pa-reset-pwd](/pkg/pa-reset-pwd) (v 1.1.18)
+ * [pa-signin](/pkg/pa-signin) (v 1.1.18)
+ * [pa-static](/pkg/pa-static) (v 1.1.18)
+ * [pa-view-email](/pkg/pa-view-email) (v 1.1.18)
