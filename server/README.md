@@ -8,7 +8,7 @@ This page introduces you to the **humble.js server** which is the core of humble
 3. humble.js comes with built-in database support (`mysql` by default) and provides you features to query the records without having to write your schema etc. This also means SQL injection prevention without having to worry about it.
 4. Most importantly, humble.js is not just react framework, it is end-to-end web framework for your website that uses react for the frontend.
 
-The idea of humble.js is different to projects like _next.js_, _gatsby.js_ and other similar projects. humble.js is focused on isomorphic javascript development, helping you make it all with javascript, from database layer to api to frontend rendering and styling.
+Humble.js is focused on isomorphic javascript development, helping you make it all with javascript, from database layer to api to frontend rendering and styling.
 
 Hopefully, soon there will be a fully working demo up and running where you will be able to experience a lot of humble.js's built-in features.
 

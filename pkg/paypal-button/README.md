@@ -22,9 +22,12 @@ yarn add @humblejs/paypal-button
 | `onError`    | func<br><br>Callback when payment errored | YES | |
 | `onCancel`    | func<br><br>Callback when payment was cancelled | YES | |
 | `shape`    | string (`pill`, `rect`)<br><br>Shape of button | NO | `pill` |
+| `label`    | string ('pay', 'checkout', 'buynow', 'paypal')<br><br>Label of button | NO | `paypal` |
 | `size`    | string (`medium`, `large`, `responsive`)<br><br>Size of button | NO | `medium` |
 | `layout`    | string (`horizontal`, `vertical`)<br><br>Layout of button | NO | `vertical` |
 | `color`    | string (`gold`, `blue`, `silver`, `white`, `black`)<br><br>Color of button | NO | `gold` |
+
+See styles @ https://developer.paypal.com/docs/archive/checkout/how-to/customize-button/#button-styles
 
 ## How to use
 
