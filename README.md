@@ -37,7 +37,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ## server
 
-current version 1.68
+current version 1.70.1
 
 Humble.js server is the core of Humble.js that incorporates all the components and serve them accordingly.
 
@@ -48,7 +48,7 @@ Humble.js server is the core of Humble.js that incorporates all the components a
 Humble.js CLI for your `package.json`. It comes in two flavours:
 
 * `@humblejs/scripts` (v 1.9.7)
-* `@humblejs/server` (v 1.10.7)
+* `@humblejs/server` (v 1.10.18)
 
 [Click here](/cli) for more details
 
@@ -80,7 +80,7 @@ Custom UI packages. You can completely ignore them if you want to use something 
  * [breadcrumbs](/pkg/breadcrumbs) (v 1.9.19)
  * [form](/pkg/form) (v 1.8.19)
  * [icon](/pkg/icon) (v 1.9.12)
- * [img](/pkg/img) (v 1.8.19)
+ * [img](/pkg/img) (v 1.8.20)
  * [menu](/pkg/menu) (v 1.1.19)
  * [modal](/pkg/modal) (v 1.2.20)
  * [pending](/pkg/pending) (v 1.1.19)
