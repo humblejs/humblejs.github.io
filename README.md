@@ -38,7 +38,7 @@ We're actively working on this project to make it robust and match today's stand
 * Fully containerized framework
 * Split services and cron jobs in to many manageable microservices
 * Migrating to kubernetes with pre-configured yaml configurations
-* Separate identity server
+* Separate auth service
 
 Even though it is a major version, we're still keeping backward compatibility as much as possible. This is to minimize efforts to migrate existing projects.
 
