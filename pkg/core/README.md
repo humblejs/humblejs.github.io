@@ -12,12 +12,15 @@ yarn add @humblejs/core
 ## Modules
 
 * `AppProvider` (`app-provider.js`)
+  * `appContext`
 * `AuthProvider` (`auth-provider.js`)
+  * `withAuth`
 * `CronBase` (`cron.js`)
 * `Logger` (`logger.js`)
 * `PageDefinitions` (`pagedef.js`)
 * `snooze()` (`snooze.js`)
 * `PasswordUtils` (`password.js`)
 * `Microservice` (`microservice.js`)
+  * `MicroserviceMessageBus`
 * `Model` (`model.js`)
 * `DatabaseManager` (`db.js`)

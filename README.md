@@ -68,7 +68,7 @@ Humble.js comes with various category of packages
 These packages go hand-in-hand with humble.js server and client pages. These are useful to speed-up the development and data accessibility.
 
  * [context](/pkg/context) (v 1.8.22)
- * [core](/pkg/core) (v 1.3.36)
+ * [core](/pkg/core) (v 1.3.37)
  * [data-provider](/pkg/data-provider) (v 1.1.14)
  * [demo](/pkg/demo) (v 2.1.22)
  * [link](/pkg/link) (v 1.8.22)
@@ -100,7 +100,7 @@ Custom UI packages. You can completely ignore them if you want to use something 
 ### pages
 Pre-build page components that are shared across and can be used in your project. Some of these pages come with humble.js server.
 
- * [pa-config](/pkg/pa-config) (v 1.1.43)
+ * [pa-config](/pkg/pa-config) (v 1.1.44)
  * [pa-error](/pkg/pa-error) (v 1.1.22)
  * [pa-reset-pwd](/pkg/pa-reset-pwd) (v 1.1.22)
  * [pa-signin](/pkg/pa-signin) (v 1.1.22)
