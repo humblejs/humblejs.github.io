@@ -28,7 +28,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 * Security features against fast malicious systems and software
 * Vulnerabilities patches as soon as they are discovered in web standards
 * "Components development framework" to develop the components without needing the server
-* A lot of built-in automated tasks (based on task automation framework), e.g, email composition, database backup, sitemap generation. You can enable or disable them with simple steps.
+* A lot of built-in automated tasks (based on task automation framework), e.g, email composition, database backup. You can enable or disable them with simple steps.
 * Built-in session management <sup>^</sup>
 
 <sup>^</sup> This feature is deprecated and will be removed in version 2 for a better replacement.
@@ -41,7 +41,7 @@ We're actively working on this project to make it robust and match today's stand
 * Multiple services and cron jobs architecture for scalability
 * Built-in orchestration with pre-configured configurations
 * Easy to adapt built-in microservice framework that you can use to create your own custom microservices and interact with it with ease.
-* A lot of built-in microservices (on top of existing ones like database back), some of them are listed below:
+* A lot of built-in microservices (on top of existing ones like database backup), some of them are listed below:
   - Storage service that is used to upload, maintain and access static files. You can upload files from other services or from frontend
   - Sitemap generator with user's specifications
   - Auth service to manage all the authentication stuffs at single place
