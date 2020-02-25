@@ -35,9 +35,24 @@ CLI specific for humble.js server repository. It is part of `@humblejs/server`
 
 | Command | Description |
 |-----------|----------------|
-| `humblejs new` | Create new server application based on humble.js |
-| `humblejs build` | Builds application for production |
-| `humblejs analyze` | Analyze bundles to see possibilities to reduce the application size|
-| `humblejs deploy` | Deploys the application to remote server specified in humble.js configuration file|
-| `humblejs deploy --only=qa,ci` | Deploys the application to remotes named `qa` and `ci`|
-| `humblejs runjob <name>` | Manually run automated task from `crons` directory |
+| `humblejs new` (Global) | Create new server application based on humble.js |
+| `humblejs build-ui` (UI) | Builds UI service for production |
+| `humblejs analyze` (UI) | Analyze bundles to see possibilities to reduce the application size|
+
+## Other commands
+Here are other list of commands you would run from root directory
+
+| Command | Description |
+|-----------|----------------|
+| `yarn deploy` | Deploys the stack as defined in humble.js config file |
+| `yarn build-for` | Builds images for specific stack e.g, `yarn build-for default` will build humble.js config file → `deployments` → `default` |
+| `yarn push-for` | Push images to container registry for specific stack. See `build-for` above for details |
+| `yarn up-for` | Helps you start stack using `docker-compose` |
+| `yarn build` | Alias for `yarn build-for default` |
+| `yarn push` | Alias for `yarn push-for default` |
+| `yarn runjob <name> [<args...>]` | Manually run automated task from `crons` directory. It uses `docker exec` to trigger the job |
+| `yarn new:svc <name>` | Create new microservice from template |
+| `yarn new:cron <name>` | Create new cron from template |
+| `yarn humblejs:update` | Update the framework based off origin |
+| `yarn reset` | **Hard Resets** any changes and refresh version of your code to match the remote |
+| `yarn pkg:update` | Updates all the packages for your scope (humble.js config file → `scope`) |
