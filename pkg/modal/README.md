@@ -17,3 +17,4 @@ yarn add @humblejs/modal
 | `hasCloseButton`    | bool<br><br>Whether there is close button or not. This button calls `onCancel`      | NO | `true` |
 | `isOpen`    | bool<br><br>Whether modal is open or not, usually you will set it from parent's state     | NO | `false` |
 | `fullScreen`    | bool<br><br>Whether modal is full screen or not     | NO | `false` |
+| `transitionType`    | one of<ul><li>`slide`</li><li>`appear`</li></ul>     | NO | `slide` |
