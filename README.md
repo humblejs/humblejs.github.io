@@ -91,10 +91,10 @@ Custom UI packages. You can completely ignore them if you want to use something 
 
  * [breadcrumbs](/pkg/breadcrumbs) (v 1.10.6)
  * [form](/pkg/form) (v 1.9.9)
- * [icon](/pkg/icon) (v 1.10.7)
+ * [icon](/pkg/icon) (v 1.11.4)
  * [img](/pkg/img) (v 1.9.7)
- * [menu](/pkg/menu) (v 1.2.6)
- * [modal](/pkg/modal) (v 1.3.6)
+ * [menu](/pkg/menu) (v 1.2.10)
+ * [modal](/pkg/modal) (v 1.3.8)
  * [pending](/pkg/pending) (v 1.2.6)
  * [share](/pkg/share) (v 1.9.6)
  * [skeleton](/pkg/skeleton) (v 1.9.6)
