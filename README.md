@@ -2,7 +2,7 @@ Humble.js is a web framework built on modern technology stack with speed, securi
 
 It initially began with monolithic architecture and it has moved to microservice architecture that enables developers to adapt any microservice pattern that works best for them. By default it uses "decomposition by business capability" architecture.
 
-The project was started in 2018 by [Amrayn Web Services](https://amrayn.com).
+The project was started in 2018 by [@abumq](https://github.com/abumq) and is continued to be developed, maintained and used in production.
 
 ## Features
 
@@ -10,7 +10,7 @@ Humble.js comes with a lot of features out of the box, some of them are listed b
 
 ### Core
 
-* Containerized framework
+* Containerized framework out of the box
 * Multiple services and cron jobs architecture for scalability
 * Built-in orchestration configuration (swarm or k8s) with pre-configured yaml files to get started
 * Generic codebase designed to fit any project whether small or huge.
